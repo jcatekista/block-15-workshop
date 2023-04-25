@@ -13,30 +13,6 @@ console.log(shoe.brand);
 console.log(shoe.color);
 console.log(shoe.activityTypes);
 
-//guided practice
-//object = dinner
-const dinner = {
-  //food types and price
-  hamburger: 12,
-  steak: 20,
-  soup: 8,
-  macAndCheese: 14,
-  soupAndSalad: 16,
-};
-//print array of different foods
-console.log(Object.keys(dinner));
-//print array of prices
-console.log(Object.values(dinner));
-//calculate total cost
-const prices = Object.values(dinner);
-let totalCost = 0;
-//calculation of values
-for (let i = 0; i < prices.length; i++) {
-  totalCost += prices[i];
-}
-//print total cost
-console.log(totalCost);
-
 //update object properties
 const car = {
   color: "blue",
